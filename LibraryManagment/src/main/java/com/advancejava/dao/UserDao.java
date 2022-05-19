@@ -17,6 +17,8 @@ public class UserDao {
 	@Autowired
 	private SessionFactory sessionFactory;
 
+	
+	//Sanjeev Project
 	public User validateUser(String username, String password) {
 		Session session = sessionFactory.openSession();
 		Transaction tr = session.getTransaction();
