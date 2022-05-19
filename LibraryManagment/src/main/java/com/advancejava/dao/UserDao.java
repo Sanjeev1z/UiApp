@@ -19,6 +19,7 @@ public class UserDao {
 
 	
 	//Sanjeev Project
+	//Commit Second
 	public User validateUser(String username, String password) {
 		Session session = sessionFactory.openSession();
 		Transaction tr = session.getTransaction();
